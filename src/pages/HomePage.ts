@@ -7,7 +7,7 @@ export class HomePage {
     constructor(page: Page) {
         this.page = page;
 
-        // Elements
+        
         this.searchTextbox = page.locator('#APjFqb');
     }
 
