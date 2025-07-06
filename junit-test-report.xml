@@ -1,0 +1,98 @@
+<testsuites id="" name="" tests="3" failures="1" skipped="0" errors="0" time="26.490834">
+<testsuite name="Chapter01\04_Codegen_Test.spec.ts" timestamp="2025-07-06T14:29:05.986Z" hostname="Google Chrome" tests="2" failures="1" skipped="0" time="33.215" errors="0">
+<testcase name="Codegen test case" classname="Chapter01\04_Codegen_Test.spec.ts" time="20.82">
+<system-out>
+<![CDATA[
+[[ATTACHMENT|test-results\Chapter01-04_Codegen_Test-Codegen-test-case-Google-Chrome\test-finished-1.png]]
+
+[[ATTACHMENT|test-results\Chapter01-04_Codegen_Test-Codegen-test-case-Google-Chrome\trace.zip]]
+]]>
+</system-out>
+</testcase>
+<testcase name="Test 2 will fail" classname="Chapter01\04_Codegen_Test.spec.ts" time="12.395">
+<failure message="04_Codegen_Test.spec.ts:19:5 Test 2 will fail" type="FAILURE">
+<![CDATA[  [Google Chrome] › Chapter01\04_Codegen_Test.spec.ts:19:5 › Test 2 will fail @PlaywrightWithJenkins 
+
+    Error: expect(received).toBe(expected) // Object.is equality
+
+    Expected: false
+    Received: true
+
+      19 | test('Test 2 will fail', { tag: ['@PlaywrightWithJenkins'] }, async ({ page }) => {
+      20 |   await page.goto('https://www.youtube.com/@testerstalk');
+    > 21 |   expect(true).toBe(false);
+         |                ^
+      22 | });
+        at E:\PlaywrightTypeScriptTutorialFullCourse-main\PlaywrightTypeScriptTutorialFullCourse-main\tests\Chapter01\04_Codegen_Test.spec.ts:21:16
+
+    attachment #1: screenshot (image/png) ──────────────────────────────────────────────────────────
+    test-results\Chapter01-04_Codegen_Test-Test-2-will-fail-Google-Chrome\test-failed-1.png
+    ────────────────────────────────────────────────────────────────────────────────────────────────
+
+    attachment #2: trace (application/zip) ─────────────────────────────────────────────────────────
+    test-results\Chapter01-04_Codegen_Test-Test-2-will-fail-Google-Chrome\trace.zip
+    Usage:
+
+        npx playwright show-trace test-results\Chapter01-04_Codegen_Test-Test-2-will-fail-Google-Chrome\trace.zip
+
+    ────────────────────────────────────────────────────────────────────────────────────────────────
+]]>
+</failure>
+<system-out>
+<![CDATA[
+[[ATTACHMENT|test-results\Chapter01-04_Codegen_Test-Test-2-will-fail-Google-Chrome\test-failed-1.png]]
+
+[[ATTACHMENT|test-results\Chapter01-04_Codegen_Test-Test-2-will-fail-Google-Chrome\trace.zip]]
+]]>
+</system-out>
+</testcase>
+</testsuite>
+<testsuite name="Chapter06\08_DELETE_API_Request.spec.ts" timestamp="2025-07-06T14:29:05.986Z" hostname="Google Chrome" tests="1" failures="0" skipped="0" time="3.667" errors="0">
+<testcase name="[10,11] Create DELETE API Request using playwright &amp; typescript" classname="Chapter06\08_DELETE_API_Request.spec.ts" time="3.667">
+<system-out>
+<![CDATA[POST API Response : {
+  "bookingid": 4534,
+  "booking": {
+    "firstname": "Lia",
+    "lastname": "Bechtelar",
+    "totalprice": 6126,
+    "depositpaid": true,
+    "bookingdates": {
+      "checkin": "2025-01-25",
+      "checkout": "2025-01-27"
+    },
+    "additionalneeds": "breakfast"
+  }
+}
+Booking Id : 4534
+GET API Response : {
+  "firstname": "Lia",
+  "lastname": "Bechtelar",
+  "totalprice": 6126,
+  "depositpaid": true,
+  "bookingdates": {
+    "checkin": "2025-01-25",
+    "checkout": "2025-01-27"
+  },
+  "additionalneeds": "breakfast"
+}
+Token : 2bf9c818b114f36
+PATCH API Response : {
+  "firstname": "Testers Talk",
+  "lastname": "Bechtelar",
+  "totalprice": 6126,
+  "depositpaid": true,
+  "bookingdates": {
+    "checkin": "2025-01-25",
+    "checkout": "2025-01-27"
+  },
+  "additionalneeds": "breakfast"
+}
+DELETE API Response : Created
+
+[[ATTACHMENT|test-results\Chapter06-08_DELETE_API_Re-bb533-using-playwright-typescript-Google-Chrome\trace.zip]]
+]]>
+</system-out>
+</testcase>
+</testsuite>
+</testsuites>

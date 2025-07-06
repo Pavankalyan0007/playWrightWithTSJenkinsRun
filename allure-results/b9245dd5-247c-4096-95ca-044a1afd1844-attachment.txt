@@ -1,0 +1,39 @@
+POST API Response : {
+  "bookingid": 4534,
+  "booking": {
+    "firstname": "Lia",
+    "lastname": "Bechtelar",
+    "totalprice": 6126,
+    "depositpaid": true,
+    "bookingdates": {
+      "checkin": "2025-01-25",
+      "checkout": "2025-01-27"
+    },
+    "additionalneeds": "breakfast"
+  }
+}
+Booking Id : 4534
+GET API Response : {
+  "firstname": "Lia",
+  "lastname": "Bechtelar",
+  "totalprice": 6126,
+  "depositpaid": true,
+  "bookingdates": {
+    "checkin": "2025-01-25",
+    "checkout": "2025-01-27"
+  },
+  "additionalneeds": "breakfast"
+}
+Token : 2bf9c818b114f36
+PATCH API Response : {
+  "firstname": "Testers Talk",
+  "lastname": "Bechtelar",
+  "totalprice": 6126,
+  "depositpaid": true,
+  "bookingdates": {
+    "checkin": "2025-01-25",
+    "checkout": "2025-01-27"
+  },
+  "additionalneeds": "breakfast"
+}
+DELETE API Response : Created
