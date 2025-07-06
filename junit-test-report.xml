@@ -1,6 +1,6 @@
-<testsuites id="" name="" tests="3" failures="1" skipped="0" errors="0" time="26.490834">
-<testsuite name="Chapter01\04_Codegen_Test.spec.ts" timestamp="2025-07-06T14:29:05.986Z" hostname="Google Chrome" tests="2" failures="1" skipped="0" time="33.215" errors="0">
-<testcase name="Codegen test case" classname="Chapter01\04_Codegen_Test.spec.ts" time="20.82">
+<testsuites id="" name="" tests="3" failures="1" skipped="0" errors="0" time="27.156305">
+<testsuite name="Chapter01\04_Codegen_Test.spec.ts" timestamp="2025-07-06T14:36:40.553Z" hostname="Google Chrome" tests="2" failures="1" skipped="0" time="34.504" errors="0">
+<testcase name="Codegen test case" classname="Chapter01\04_Codegen_Test.spec.ts" time="20.9">
 <system-out>
 <![CDATA[
 [[ATTACHMENT|test-results\Chapter01-04_Codegen_Test-Codegen-test-case-Google-Chrome\test-finished-1.png]]
@@ -9,7 +9,7 @@
 ]]>
 </system-out>
 </testcase>
-<testcase name="Test 2 will fail" classname="Chapter01\04_Codegen_Test.spec.ts" time="12.395">
+<testcase name="Test 2 will fail" classname="Chapter01\04_Codegen_Test.spec.ts" time="13.604">
 <failure message="04_Codegen_Test.spec.ts:19:5 Test 2 will fail" type="FAILURE">
 <![CDATA[  [Google Chrome] › Chapter01\04_Codegen_Test.spec.ts:19:5 › Test 2 will fail @PlaywrightWithJenkins 
 
@@ -47,15 +47,15 @@
 </system-out>
 </testcase>
 </testsuite>
-<testsuite name="Chapter06\08_DELETE_API_Request.spec.ts" timestamp="2025-07-06T14:29:05.986Z" hostname="Google Chrome" tests="1" failures="0" skipped="0" time="3.667" errors="0">
-<testcase name="[10,11] Create DELETE API Request using playwright &amp; typescript" classname="Chapter06\08_DELETE_API_Request.spec.ts" time="3.667">
+<testsuite name="Chapter06\08_DELETE_API_Request.spec.ts" timestamp="2025-07-06T14:36:40.553Z" hostname="Google Chrome" tests="1" failures="0" skipped="0" time="2.927" errors="0">
+<testcase name="[10,11] Create DELETE API Request using playwright &amp; typescript" classname="Chapter06\08_DELETE_API_Request.spec.ts" time="2.927">
 <system-out>
 <![CDATA[POST API Response : {
-  "bookingid": 4534,
+  "bookingid": 3349,
   "booking": {
-    "firstname": "Lia",
-    "lastname": "Bechtelar",
-    "totalprice": 6126,
+    "firstname": "Eli",
+    "lastname": "Goyette",
+    "totalprice": 7996,
     "depositpaid": true,
     "bookingdates": {
       "checkin": "2025-01-25",
@@ -64,11 +64,11 @@
     "additionalneeds": "breakfast"
   }
 }
-Booking Id : 4534
+Booking Id : 3349
 GET API Response : {
-  "firstname": "Lia",
-  "lastname": "Bechtelar",
-  "totalprice": 6126,
+  "firstname": "Eli",
+  "lastname": "Goyette",
+  "totalprice": 7996,
   "depositpaid": true,
   "bookingdates": {
     "checkin": "2025-01-25",
@@ -76,11 +76,11 @@ GET API Response : {
   },
   "additionalneeds": "breakfast"
 }
-Token : 2bf9c818b114f36
+Token : 4422442b813f8a7
 PATCH API Response : {
   "firstname": "Testers Talk",
-  "lastname": "Bechtelar",
-  "totalprice": 6126,
+  "lastname": "Goyette",
+  "totalprice": 7996,
   "depositpaid": true,
   "bookingdates": {
     "checkin": "2025-01-25",

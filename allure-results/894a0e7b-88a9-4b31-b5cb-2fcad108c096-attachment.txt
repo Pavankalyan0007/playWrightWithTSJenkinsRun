@@ -1,0 +1,39 @@
+POST API Response : {
+  "bookingid": 3349,
+  "booking": {
+    "firstname": "Eli",
+    "lastname": "Goyette",
+    "totalprice": 7996,
+    "depositpaid": true,
+    "bookingdates": {
+      "checkin": "2025-01-25",
+      "checkout": "2025-01-27"
+    },
+    "additionalneeds": "breakfast"
+  }
+}
+Booking Id : 3349
+GET API Response : {
+  "firstname": "Eli",
+  "lastname": "Goyette",
+  "totalprice": 7996,
+  "depositpaid": true,
+  "bookingdates": {
+    "checkin": "2025-01-25",
+    "checkout": "2025-01-27"
+  },
+  "additionalneeds": "breakfast"
+}
+Token : 4422442b813f8a7
+PATCH API Response : {
+  "firstname": "Testers Talk",
+  "lastname": "Goyette",
+  "totalprice": 7996,
+  "depositpaid": true,
+  "bookingdates": {
+    "checkin": "2025-01-25",
+    "checkout": "2025-01-27"
+  },
+  "additionalneeds": "breakfast"
+}
+DELETE API Response : Created
